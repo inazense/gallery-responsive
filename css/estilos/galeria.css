@@ -1,0 +1,37 @@
+/*Transparencia menú en galería*/
+.container header .navbar{
+    background-color: rgba(51, 44, 44, 1);
+}
+
+/*Distancia de la galería al menú*/
+.popup-gallery{
+    padding-top: 1em;
+}
+
+/*Tamaño y margen de las imágenes*/
+.popup-gallery a img{
+    min-height: 7em;
+    max-height: 7em;
+    margin: .5em .5em;
+}
+@media (min-width: 768px) and (max-width: 850px){
+    .popup-gallery a img{
+        min-height: 6em;
+        max-height: 6em;
+    }
+}
+
+@media (max-width: 767px){
+    .popup-gallery a img{
+        min-height: 10em;
+        max-height: 10em;
+    }
+    .popup-gallery{
+        text-align: center;
+    }
+}
+
+/*Color del menú - sección activa*/
+.container header .navbar .container-fluid #navbar-1 ul li#menuGaleria a{
+    color: #FADF58;
+}
