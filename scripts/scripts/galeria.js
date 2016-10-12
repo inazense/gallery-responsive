@@ -15,7 +15,7 @@ $(document).ready(function () {
         image: {
             tError: '<a href="%url%">La imagen #%curr%</a> no se ha podido cargar.',
             titleSrc: function (item) {
-                return item.el.attr('title') + '<small>MP Reformas</small>';
+                return item.el.attr('title') + '<small>Programando a pasitos</small>';
             }
         }
     });
