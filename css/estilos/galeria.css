@@ -30,8 +30,3 @@
         text-align: center;
     }
 }
-
-/*Color del menú - sección activa*/
-.container header .navbar .container-fluid #navbar-1 ul li#menuGaleria a{
-    color: #FADF58;
-}
