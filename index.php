@@ -40,7 +40,7 @@
                             $arrayImagenes = $galeria->cargarImagenes("assets");
 
                             foreach($arrayImagenes as $path){
-                                echo '<a href="' . $path . '" title="Reformas de interior"><img src="' . $path . '"/></a>';
+                                echo '<a href="' . $path . '" title="Programando a pasitos"><img src="' . $path . '"/></a>';
                             }
                         ?>
                     </div>
